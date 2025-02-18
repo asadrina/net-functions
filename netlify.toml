@@ -19,9 +19,3 @@
   #  publish = "dist" # Folder with the static content for _redirect file
 
   ## more info on configuring this file: https://ntl.fyi/file-based-build-config
-[functions]
-  deno_import_map = "./import_map.json"
-
-[[edge_functions]]
-  path = "/movies"
-  function = "movies"
